@@ -10,7 +10,7 @@ use PhpParser\Node\Expr\FuncCall;
 class EmpresaController extends Controller
 {
     public function inicio(){
-        return view('empresa');
+        return 'Hello world';
     }
     public function mostrarempresa(Request $request){
         if($request){
